@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fbeff5;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #ffb6c1;
+  padding: 20px;
+}
+
+main {
+  padding: 30px;
+}
+
+.dramas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #e75480;
+}
+
+button {
+  margin-top: 30px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e75480;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c7436b;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #ffe4ec;
+  font-size: 14px;
+}
